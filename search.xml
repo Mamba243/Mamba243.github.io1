@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>第一次修改</title>
+    <url>/2020/03/17/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BF%AE%E6%94%B9/</url>
+    <content><![CDATA[<blockquote>
+<p>新增评论区功能</p>
+</blockquote>
+<blockquote>
+<p>修改底部访问量统计异常</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Life</category>
+      </categories>
+      <tags>
+        <tag>Kobe</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>3月Python笔记</title>
     <url>/2020/03/16/Pythonnote/</url>
     <content><![CDATA[<h2 id="3月python笔记"><a href="#3月python笔记" class="headerlink" title="3月python笔记"></a>3月python笔记</h2><h4 id="1-计算数据时，必须是数字类型的才可以计算"><a href="#1-计算数据时，必须是数字类型的才可以计算" class="headerlink" title="1. 计算数据时，必须是数字类型的才可以计算"></a>1. 计算数据时，必须是数字类型的才可以计算</h4><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">"==========买苹果计算器============"</span>)</span><br><span class="line">mon=input(<span class="string">"请输入单价"</span>)</span><br><span class="line">weight= input(<span class="string">"请输入重量"</span>)</span><br><span class="line">M = float(mon)</span><br><span class="line">W = float(weight)</span><br><span class="line">total = M*W</span><br><span class="line">print(total)</span><br></pre></td></tr></table></figure>
