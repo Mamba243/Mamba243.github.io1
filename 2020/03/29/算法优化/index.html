@@ -22,17 +22,20 @@
     var CONFIG = {"hostname":"github.com","root":"/","scheme":"Mist","version":"7.7.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="I do what I do.—Kobe Bryant">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Mamba&#39;s Blog">
-<meta property="og:url" content="https://github.com/Mamba243/Mamba243.github.io.git/tags/java/index.html">
+  <meta name="description" content="算法优化比较数字大小的算法 题目要求： ​    比较三个数的大小，并且得到最大值      法一：  123456789101112131415161718192021222324import java.util.Scanner;public class compareNum &amp;#123;    public static void main(String[] args) &amp;#123;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Java算法优化（持续更新）">
+<meta property="og:url" content="https://github.com/Mamba243/Mamba243.github.io.git/2020/03/29/%E7%AE%97%E6%B3%95%E4%BC%98%E5%8C%96/index.html">
 <meta property="og:site_name" content="Mamba&#39;s Blog">
-<meta property="og:description" content="I do what I do.—Kobe Bryant">
+<meta property="og:description" content="算法优化比较数字大小的算法 题目要求： ​    比较三个数的大小，并且得到最大值      法一：  123456789101112131415161718192021222324import java.util.Scanner;public class compareNum &amp;#123;    public static void main(String[] args) &amp;#123;">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-03-29T05:48:01.467Z">
+<meta property="article:modified_time" content="2020-03-29T06:06:56.123Z">
 <meta property="article:author" content="秃头东">
+<meta property="article:tag" content="java">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://github.com/Mamba243/Mamba243.github.io.git/tags/java/">
+<link rel="canonical" href="https://github.com/Mamba243/Mamba243.github.io.git/2020/03/29/%E7%AE%97%E6%B3%95%E4%BC%98%E5%8C%96/">
 
 
 <script id="page-configurations">
@@ -40,11 +43,11 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false
+    isPost : true
   };
 </script>
 
-  <title>标签: java | Mamba's Blog</title>
+  <title>Java算法优化（持续更新） | Mamba's Blog</title>
   
 
 
@@ -197,237 +200,201 @@
           <div class="content">
             
 
+  <div class="posts-expand">
+      
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h1 class="collection-header">java
-          <small>标签</small>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://github.com/Mamba243/Mamba243.github.io.git/2020/03/29/%E7%AE%97%E6%B3%95%E4%BC%98%E5%8C%96/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="秃头东">
+      <meta itemprop="description" content="I do what I do.—Kobe Bryant">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Mamba's Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Java算法优化（持续更新）
         </h1>
-      </div>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-03-29 13:48:01 / 修改时间：14:06:56" itemprop="dateCreated datePublished" datetime="2020-03-29T13:48:01+08:00">2020-03-29</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Java-Notes/" itemprop="url" rel="index"><span itemprop="name">Java Notes</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/03/29/%E7%AE%97%E6%B3%95%E4%BC%98%E5%8C%96/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/03/29/%E7%AE%97%E6%B3%95%E4%BC%98%E5%8C%96/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>805</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <h1 class="collection-header">2020</h1>
+        <h1 id="算法优化"><a href="#算法优化" class="headerlink" title="算法优化"></a>算法优化</h1><h2 id="比较数字大小的算法"><a href="#比较数字大小的算法" class="headerlink" title="比较数字大小的算法"></a>比较数字大小的算法</h2><blockquote>
+<p>题目要求：</p>
+<p>​    比较三个数的大小，并且得到最大值   </p>
+</blockquote>
+<ul>
+<li>法一：</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">compareNum</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Scanner sc = <span class="keyword">new</span> Scanner(System.in);</span><br><span class="line">        System.out.println(<span class="string">"请输入第一个数字"</span>);</span><br><span class="line">        <span class="keyword">int</span> a = sc.nextInt();</span><br><span class="line">        System.out.println(<span class="string">"请输入第二个数字："</span>);</span><br><span class="line">        <span class="keyword">int</span> b = sc.nextInt();</span><br><span class="line">        System.out.println(<span class="string">"请输入第三个数字："</span>);</span><br><span class="line">        <span class="keyword">int</span> c = sc.nextInt();</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 判断方法一</span></span><br><span class="line">        <span class="keyword">if</span> (a&gt;b&amp;&amp;a&gt;c)&#123;</span><br><span class="line">            System.out.println(<span class="string">"最大值为："</span>+a);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (b&gt;a&amp;&amp;b&gt;c)&#123;</span><br><span class="line">            System.out.println(<span class="string">"最大值为："</span>+b);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (c&gt;a&amp;&amp;c&gt;b)&#123;</span><br><span class="line">            System.out.println(<span class="string">"最大值为："</span>+c);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+ <a id="more"></a>
+
+<ul>
+<li>法二：</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> temp =a&gt;b? a:b ;</span><br><span class="line"><span class="keyword">int</span> max = c&gt;temp? c:temp;</span><br><span class="line">System.out.println(<span class="string">"最大值为"</span>+max);</span><br></pre></td></tr></table></figure>
+
+<p>先通过a和b比较，如果a&gt;b,则把a放入temp，否则把b放入temp；</p>
+<p>再比较c和temp，大的赋值给max，最后输出max</p>
+<ul>
+<li>法三</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> max = a;  <span class="comment">// 先假定a为最大</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span>(b&gt;max)&#123;</span><br><span class="line">    max = b;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">if</span>(c &gt; max)&#123;</span><br><span class="line">    max = c;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
+    <div>
+        
+        ﻿<div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-03-29T13:48:01+08:00"
-              content="2020-03-29">
-          03-29
-        </time>
+        
+    </div>
+        <div class="reward-container">
+  <div>支持一下吧 -_-</div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.png" alt="秃头东 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/images/alipay.png" alt="秃头东 支付宝">
+        <p>支付宝</p>
       </div>
 
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2020/03/29/%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/" itemprop="url">
-            <span itemprop="name">eclipse使用小技巧（持续更新...）</span>
+  </div>
+</div>
+
+        
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/images/wechat_channel.jpg">
+            <span class="icon">
+              <i class="fa fa-wechat"></i>
+            </span>
+
+            <span class="label">WeChat</span>
           </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-03-29T13:48:01+08:00"
-              content="2020-03-29">
-          03-29
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2020/03/29/%E6%95%B0%E5%AD%A6%E5%B7%A5%E5%85%B7Maths%E7%B1%BB/" itemprop="url">
-            <span itemprop="name">数学工具Maths类</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-03-29T13:48:01+08:00"
-              content="2020-03-29">
-          03-29
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2020/03/29/%E6%8E%A5%E5%8F%A3/" itemprop="url">
-            <span itemprop="name">接口</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-03-29T13:48:01+08:00"
-              content="2020-03-29">
-          03-29
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2020/03/29/%E7%BB%A7%E6%89%BF/" itemprop="url">
-            <span itemprop="name">继承</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-03-29T13:48:01+08:00"
-              content="2020-03-29">
-          03-29
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2020/03/29/%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95/" itemprop="url">
-            <span itemprop="name">构造方法</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-03-29T13:48:01+08:00"
-              content="2020-03-29">
-          03-29
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2020/03/29/%E6%8A%BD%E8%B1%A1/" itemprop="url">
-            <span itemprop="name">抽象</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-03-29T13:48:01+08:00"
-              content="2020-03-29">
-          03-29
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2020/03/29/super%E5%85%B3%E9%94%AE%E5%AD%97/" itemprop="url">
-            <span itemprop="name">super关键字和this关键字</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-03-29T13:48:01+08:00"
-              content="2020-03-29">
-          03-29
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2020/03/29/static%E5%85%B3%E9%94%AE%E5%AD%97/" itemprop="url">
-            <span itemprop="name">static关键字</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-03-29T13:48:01+08:00"
-              content="2020-03-29">
-          03-29
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2020/03/29/Scanner/" itemprop="url">
-            <span itemprop="name">Scanner 扫描器</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-03-29T13:48:01+08:00"
-              content="2020-03-29">
-          03-29
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2020/03/29/random%E7%9A%84%E4%BD%BF%E7%94%A8/" itemprop="url">
-            <span itemprop="name">random的使用</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
+        </div>
     </div>
   </div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/java/" rel="tag"><i class="fa fa-tag"></i> java</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2020/03/29/ArrayList%20%E7%B1%BB/" rel="next" title="ArrayList 类">
+      ArrayList 类 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
   
   
   
 
-  
-  <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/tags/java/page/2/">2</a><a class="extend next" rel="next" href="/tags/java/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
-  </nav>
-
+  </div>
 
 
           </div>
           
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -473,6 +440,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#算法优化"><span class="nav-number">1.</span> <span class="nav-text">算法优化</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#比较数字大小的算法"><span class="nav-number">1.1.</span> <span class="nav-text">比较数字大小的算法</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
